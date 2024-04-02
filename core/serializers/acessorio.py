@@ -3,4 +3,4 @@ from core.models import Acessorio
 
 
 class AcessorioSerializer(ModelSerializer):
-    class Meta: model= Acessorio, fields = '_all_'
+    class Meta: model= Acessorio, fields = '2'
